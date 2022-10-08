@@ -1,0 +1,36 @@
+{
+  "name": "express-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "test": "jest",
+    "dev": "nodemon server.js --ignore __tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "coordenadas-do-cep": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.3",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "ts-node": "^10.9.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.0"
+  }
+}
